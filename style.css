@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, sans-serif;
+}
+
+section {
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+  padding-bottom: 150px;
+}
+
+.first-section {
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+
+.secound-section {
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.third-section {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+h1 {
+  font-family: 'Metal Mania', cursive;
+  font-size: 50px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(114, 109, 109);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.highlighter {
+  color: orangered;
+}
+
+.half-width {
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+}
+
+.text-area {
+  padding: 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  padding: 10px 30px;
+  background: linear-gradient(45deg, salmon, tomato);
+  border-radius: 20px;
+  color: white;
+}
+
+.exp {
+  padding-left: 5%;
+}
+
+.exp-box {
+  height: 400px !important;
+  overflow: hidden;
+  text-align: justify;
+  padding: 0 10px;
+  box-shadow: 10px 10px 40px gray;
+  background-color: white;
+}
+
+.exp-box-1 {
+  border-left: 5px solid tomato;
+  display: inline !important;
+}
+
+.exp-box-2 {
+  border-left: 5px solid;
+  border-image: linear-gradient(180deg, navy, tomato);
+  border-image-slice: 1;
+}
+
+@media (max-width: 725px) {
+  section {
+    width: 100%;
+    max-height: 1000px;
+    overflow: hidden;
+    padding-bottom: 150px;
+  }
+
+  .exp-box {
+    padding: 5%;
+  }
+
+  .exp-box {
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+  }
+
+  .third-section {
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+  }
+}
+
+#copyright {
+  font-size: 13px;
+  font-weight: 300;
+  text-align: center;
+}
